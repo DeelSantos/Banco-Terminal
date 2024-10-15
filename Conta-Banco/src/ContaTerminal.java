@@ -11,7 +11,8 @@ public class ContaTerminal {
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         //Exibir as mensagens para o nosso usuário
         System.out.println("Bem vindo ao banco Digital Inovation One!");
-        System.out.println("Por favor digite seu nome completo");
+        System.out.println();
+        System.out.println("Por favor digite seu nome: ");
         //Obter pela scanner os valores digitados no terminal
         String nomeCompleto = scanner.next();
         
@@ -26,14 +27,16 @@ public class ContaTerminal {
 
         System.out.println("Estamos validando seus dados...");
         Thread.sleep(2000);
-
+        System.out.println();
+        
 
         System.out.println("Bem vindo " + nomeCompleto + " sua conta foi criada com sucesso!");
         System.out.println("Agencia: " + agencia);
         System.out.println("Conta: " + numeroConta);
         System.out.println("Saldo atual: " + saldo);
-
+        System.out.println();
         System.out.println("Caso queira algo a mais favor retornar ao menu inicial!");
+        System.out.println();
         System.out.println("Obrigado e tenha uma boa semana!");
         
 
